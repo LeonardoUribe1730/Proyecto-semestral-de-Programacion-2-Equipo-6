@@ -35,193 +35,46 @@ Para poder llevar a cabo este proyecto, se hizo uso de los siguientes materiales
 •	Datos obtenidos de una nivelación 
 
 Primeramente, se pasan los archivos obtenidos de una nivelación topográfica de campo a un archivo Excel.
-Figura 20. Datos de nivelación a Excel
 
 En seguida de ello, se guarda el archivo en su equipo. Se recomienda que este sea guardado en formato .cvs o .xlsx.  
 
-
-
-
-
-
-
-
-Figuras 21 y 22. Guardar en formato cvs o xlsx
-
 Una vez teniendo estos, se exportan a Google Drive. De tal manera que se guardó en la carpeta especial de Google Colab para así facilitar los procesos de búsqueda del archivo al momento de querer abrirlo en Colab.
-
-
-
-
-
-
-
-
-Figuras 23. Archivo en Google Drive
 
 Una vez teniendo nuestro archivo Excel en Google Drive con los datos de la nivelación, se comienza a programar en Colab de tal manera que abra y lea los archivos de Excel. Para ello, se emplearon comandos como “from google.colab import drive”, “from google.colab import data_table” y “import xlrd”.
 
-
-
-
-
-
-
-
-
-
-
-Figura 24. Comandos para abrir y leer el dataframe 
-
 Con el código hecho hasta ese momento nos debe de mostrar la tabla.
-
-
-
-
-
-
-
-Figura 25. Tabla mostrada
 
 Una vez ya leído y mostrado la tabla, se obtiene la suma de las columnas de lecturas positivas (‘Lect(+)’) y de lecturas negativas (‘Lect(-)’), lo cual, para poder obtener estas primeramente se accede a las columnas específicas que se desea hacer la operación del dataframe.
 
 Luego de ello aplicamos el comando sum() a cada una de las columnas a las que accedimos. Este comando calcula la suma de todos los elementos de un array sobre el eje especificado.
 
-
-
-
-
-
-
-Figura 26. Suma de columnas
-
 De esta manera obtenemos la suma de la columna de lecturas positivas y la columna de lecturas negativas.
-
-
-
-
-
-Figura 27. Resultados de la suma
 
 Una vez teniendo el resultado de la suma de cada columna, so obtiene el desnivel, el cual simplemente se realiza una resta de las lecturas positivas con las lecturas negativas.
 
- 
-
-
-
-
-Figura 28. Desnivel de las lecturas
-
 Con el comando print(), se muestra el desnivel.
-
-
-
-Figura 29. Resultado del desnivel 
 
 Ahora bien, con todo lo anterior ya hecho, se realiza la gráfica de cómo es la diferencia de desnivel en dicho terreno. Para ello se hace empleo de librería matplotlib.
 
 Primeramente, se definió los valores del dataframe (archivo Excel) que se desean graficar. En este caso, las cotas y los P.V. En toda nivelación, para poder graficar y mostrar el perfil de cómo es la pendiente durante todo un tramo del terreno, se debe de establecer las cotas y los puntos que poseen dichas cotas.
 
-
-
-Figura 30. Definiendo valores para graficar
-
-
 Luego de ello, se especifica cual irá en el eje X y eje Y. En el eje X irá los P.V y en el eje Y las cotas.
-
-
-
-
-Figura 31. Proceso de graficación del desnivel
 
 De esta manera se obtiene una representación gráfica de cómo es el desnivel de los datos de la nivelación.
 
-
-
-
-
-
-
-Figura 32. Representación gráfica del desnivel
-
 Ahora bien, se utilizó la condición If para determinar si la pendiente del desnivel es creciente, decreciente o si el terreno es plano.
-
-
-
-
-
-
-Figura 33. Introducción de la condición If
 
 Con las condiciones establecidas, cuando se ejecuta el programa se imprime que la pendiente es decreciente, pues el desnivel que hubo es menor a 0 (-2.873).
 
-
-
-
-
-Figura 34. Uso de la condición If
-
 Ahora bien, luego se usó el módulo time,  math, geopy y seaborn para poder obtener la ubicación en tiempo real con sus coordenadas de dónde se realizó la nivelación topográfica.
-
-
-
-
-
-
-
-Figura 35. Código para especificar el lugar
-
-
-
-
-
-Figura 35. Especificación del lugar 
-
-
-
-
-
-Figura 36. Datos de la ubicación
 
 Finalmente se usó el módulo basemap para mostrar un mapa de escala global en donde marca en que parte del mundo se encuentra realizada la nivelación topográfica.
 
- 
-
-
-
-
-
-
-Figura 37. Uso de basemap
-
 Y así el código nos muestra lo siguiente:
 
-
-
-
-
-
-
-
-
-
-Figura 38. Mapa 
-
-3.- Manejo de datos
+3. Manejo de datos
 
 Por parte de los datos que se emplearon se encuentran toda la información de Excel obtenida de una nivelación topográfica, en donde se ordenaron por Punto Visado (P.V), Lecturas Positivas (Lect (+)), Lecturas Negativas (Lect (-)), Altura del instrumento (A.I.) y Cotas.
-
-
-
-
-
-
-
-
-
-
-Figura 39. Datos de Nivelación Topográfica
-
 
 Ahora bien, por parte de los datos para programar, se emplearon librerías y módulos tales como pandas, numpy, xrld y matplotlib, en donde:
 
@@ -246,99 +99,150 @@ Como recomendación, sugerimos que al utilizar el programa realizado por nosotro
 
 Cabe destacar que es importante tener instalado la librería basemap con pip install pues si esta no está instalada, el programa nos marcará error.
 
-
-
-
-
-
-
-
-
-
-
-Figura 40. Basemap instalado
-
-
-4.- Resultados
+4. Resultados
 
 Respecto a los resultados, podemos decir que, si se cumplieron con los objetivos establecidos en nuestro proyecto, es decir, se pudo programar y se obtuvo el desnivel que hay entre dos bancos de nivel al igual que también se logró representar el desnivel a manera de una gráfica de barras, en donde se especifica a detalle como es el comportamiento de los datos en cada estación o punto visado. Así mismo, el código elaborado muestra el lugar, las coordenadas y un mapa con la zona donde se realizó la nivelación.
 
 De igual manera, con el desarrollo de este proyecto se pudo comprobar que la nivelación realizada en campo fue realizada correctamente, pues con el análisis de los datos obtenidos a la hora de programar pudimos colaborar nuestras hipótesis sobre cómo es el desnivel que existe desde un banco de nivel a otro.
 
 El código realizado fue el siguiente:
+
 #Universidad de Colima- Facultad de Ingeniería Civil
+
 #Carrera: Ingeniero Topógrafo Geomático
+
 #Elaborado por: Avalos Rocha Andrea, Jiménez Vargas Mariel del Rosario y Uribe García Leonardo Miguel
+
 #Grado y grupo: 3°B
+
 #Programación de computadoras II
 
 %matplotlib inline
+
 from google.colab import drive
+
 from google.colab import data_table
+
 from vega_datasets import data
+
 import pandas as pd
+
 import numpy as np
+
 import xlrd
+
 import matplotlib.pyplot as plt
+
 from matplotlib.ticker import PercentFormatter
+
 import seaborn as sb
+
 from mpl_toolkits.basemap.test import Basemap
+
 from geopy.geocoders import Nominatim
+
 import time
+
 import math
 
+
 print('--Programa que calcula el desnivel entre dos puntos referidos a una superficie--')
+
 print('Bienvenido a nuestro programa, este te ayudará a conocer el desnivel de una nivelación topográfica y te mostrára de forma gráfica como es esta')
+
 print('IMPORTANTE: Para que el programa te funcione debes tener tu información en Excel separada con columnas y cada columna con los nombres: P.V, Lect(+),  (A.I), Lect(-) y Cotas')
+
 print('P.V significa Punto Visado')
+
 print('A.I significa Altura del instrumento')
 
+
 data_table.enable_dataframe_formatter()
+
 data.airports()
+
 drive.mount('/gdrive')
+
 df= pd.read_excel('/gdrive/MyDrive/Colab Notebooks/Proyecto_Integrador/Nivelación.xlsx', sheet_name = "Hoja2")
+
 print(df.head())
 
+
 columna_lectpostivas = df['Lect(+)']
+
 sumlecturaspositivas= sum(columna_lectpostivas)
+
 print('La suma de las lecturas positivas es: ', sumlecturaspositivas)
 
+
 columna_lectnegativas = df['Lect(-)']
+
 sumlecturasnegativas= sum(columna_lectnegativas)
+
 print('La suma de las lecturas negativas es: ', sumlecturasnegativas)
 
+
 desnivel= sumlecturaspositivas-sumlecturasnegativas
+
 print('El desnivel de esta nivelación es: ', desnivel)
 
+
 valores= df[['P.V','Cota']]
+
 ax= valores.plot(x='P.V',y='Cota',rot= 0)
+
 plt.xlabel("P.V")
+
 plt.ylabel("Cota")
+
 plt.title("Nivelación Geométrica- Perfil del tramo")
+
 plt.show()
 
+
 if desnivel > 0:
+
   print('La pendiente va de forma creciente')
+  
 if desnivel < 0:
+
   print('La pendiente va de forma decreciente')
+  
 if desnivel == 0:
+
   print('No hay pendiente, el terreno es plano')
+  
 
 geolocator = Nominatim(user_agent="AppMap")
+
 lugar= input("Lugar donde se hizo la nivelación: ")
+
 location = geolocator.geocode(lugar)
+
 print(location)
+
 print((location.latitude, location.longitude))
+
 geo = Nominatim(user_agent="AppMap", timeout=2)
+
 zona = geo.geocode(lugar)
+
 plt.figure(figsize=(16,12))
+
 my_map=Basemap(projection="robin", lon_0=0,lat_0=0)
+
 my_map.drawcoastlines()
+
 my_map.drawcountries()
+
 my_map.fillcontinents(color='green')
+
 x,y = my_map(zona.longitude,zona.latitude)
+
 my_map.plot(x,y,color='red', marker="o",markersize="15")
+
 plt.title("Ubicación donde se hizo la nivelación")
+
 
 Link del código en colab:
 https://colab.research.google.com/drive/1C6E2Dd3u2N2XMu5XNNS4_6UzthRyFEGr?usp=sharing
@@ -356,7 +260,6 @@ Para finalizar, el realizar este código nos deja una gran enseñanza, pues ejem
 
 
 6. Referencias
-
  
 Aws(2022).”¿Qué es Python?, Amazon.com. Recuperado el 31 de octubre de 2022, de https://aws.amazon.com/es/what-is/python/
 
@@ -367,7 +270,3 @@ Cientec instrumentos. (2022). ¿Cómo usar un Nivel Topográfico? 01 de septiemb
 Gabri,P(17 de octubre de 2018). ArcGeek, recuperado de https://acolita.com/evolucion-de-las-tecnicas-topograficas/
 
 Torres N., Villate B. (2001). Topografía. Ed. Escuela Colombiana de Ingeniería. 4a edición. Colombia
- 
-
-Apéndice
-Utilice esta página y las siguientes para situar tablas y figuras de tamaño superior al ancho de la colum- na, u otros materiales. Si no la utiliza, borre esta sección.
