@@ -48,31 +48,56 @@ Una vez teniendo estos, se exportan a Google Drive. De tal manera que se guardó
 
 Una vez teniendo nuestro archivo Excel en Google Drive con los datos de la nivelación, se comienza a programar en Colab de tal manera que abra y lea los archivos de Excel. Para ello, se emplearon comandos como “from google.colab import drive”, “from google.colab import data_table” y “import xlrd”.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-011.png](https://i.postimg.cc/Kj171D1P/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-011.png)](https://postimg.cc/q6d6YnXq)
+
 Con el código hecho hasta ese momento nos debe de mostrar la tabla.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-012.png](https://i.postimg.cc/DfRpqS7v/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-012.png)](https://postimg.cc/4nb1GNKq)
 
 Una vez ya leído y mostrado la tabla, se obtiene la suma de las columnas de lecturas positivas (‘Lect(+)’) y de lecturas negativas (‘Lect(-)’), lo cual, para poder obtener estas primeramente se accede a las columnas específicas que se desea hacer la operación del dataframe.
 
 Luego de ello aplicamos el comando sum() a cada una de las columnas a las que accedimos. Este comando calcula la suma de todos los elementos de un array sobre el eje especificado.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-013.png](https://i.postimg.cc/xjNtT9MW/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-013.png)](https://postimg.cc/9zVGL5xp)
+
 De esta manera obtenemos la suma de la columna de lecturas positivas y la columna de lecturas negativas.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-014.png](https://i.postimg.cc/KvNLmWq6/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-014.png)](https://postimg.cc/9rDzpLjb)
 
 Una vez teniendo el resultado de la suma de cada columna, so obtiene el desnivel, el cual simplemente se realiza una resta de las lecturas positivas con las lecturas negativas.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-016.png](https://i.postimg.cc/ZKV9Gd0Z/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-016.png)](https://postimg.cc/xcNTHqKF)
+
 Con el comando print(), se muestra el desnivel.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-017.png](https://i.postimg.cc/T3sKwvr4/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-017.png)](https://postimg.cc/VJjfGTZq)
+
 
 Ahora bien, con todo lo anterior ya hecho, se realiza la gráfica de cómo es la diferencia de desnivel en dicho terreno. Para ello se hace empleo de librería matplotlib.
 
 Primeramente, se definió los valores del dataframe (archivo Excel) que se desean graficar. En este caso, las cotas y los P.V. En toda nivelación, para poder graficar y mostrar el perfil de cómo es la pendiente durante todo un tramo del terreno, se debe de establecer las cotas y los puntos que poseen dichas cotas.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-018.png](https://i.postimg.cc/ZnjRzGbj/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-018.png)](https://postimg.cc/ctgZQ588)
+
 Luego de ello, se especifica cual irá en el eje X y eje Y. En el eje X irá los P.V y en el eje Y las cotas.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-019.png](https://i.postimg.cc/bJyffsZc/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-019.png)](https://postimg.cc/p966DVQq)
 
 De esta manera se obtiene una representación gráfica de cómo es el desnivel de los datos de la nivelación.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-020.png](https://i.postimg.cc/6q8SBRwS/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-020.png)](https://postimg.cc/9wj1pDDt)
+
 Ahora bien, se utilizó la condición If para determinar si la pendiente del desnivel es creciente, decreciente o si el terreno es plano.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-021.png](https://i.postimg.cc/G3fVqMx1/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-021.png)](https://postimg.cc/nMv3LGWd)
 
 Con las condiciones establecidas, cuando se ejecuta el programa se imprime que la pendiente es decreciente, pues el desnivel que hubo es menor a 0 (-2.873).
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-022.png](https://i.postimg.cc/W4sHhxT0/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-022.png)](https://postimg.cc/rDYJHndp)
+
 Ahora bien, luego se usó el módulo time,  math, geopy y seaborn para poder obtener la ubicación en tiempo real con sus coordenadas de dónde se realizó la nivelación topográfica.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-023.png](https://i.postimg.cc/5NLJvddr/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-023.png)](https://postimg.cc/yk124GNh)
 
 Finalmente se usó el módulo basemap para mostrar un mapa de escala global en donde marca en que parte del mundo se encuentra realizada la nivelación topográfica.
 
