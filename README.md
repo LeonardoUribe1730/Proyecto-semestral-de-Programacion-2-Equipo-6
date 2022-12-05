@@ -5,29 +5,28 @@ Program that calculates the unevenness between two points referred to a surface.
 
 Andrea Avalos Rocha (1), Mariel del Rosario Jiménez Vargas (2), Leonardo Miguel Uribe García (3)
 
-(1) Facultad de Ingeniería Civil, 1604, Colima-Coquimatlán Kilómetro 9, Jardines del Llano, 28400, Co- quimatlán, Col.(1)20186380,aavalos9@ucol.mx, (2) 20186524 mjimenez@ucol.mx (3) 20186673 luri-
-be0@ucol,mx
+(1) Facultad de Ingeniería Civil, 1604, Colima-Coquimatlán Kilómetro 9, Jardines del Llano, 28400, Co- quimatlán, Col.(1)20186380,aavalos9@ucol.mx, (2) 20186524 mjimenez@ucol.mx (3) 20186673 luribe0@ucol,mx
  
+Resumen
 
-
-
- 
-       Resumen
 Se generará un programa en colab el cual tiene como propósito leer un archivo de Excel, en el que se encuentran datos de una nivelación previamente realizada del campus Coquimatlán en la Facultad de Ingeniería Civil, para obtener como resultado que el programa genere de manera automática el desnivel obtenido, también para un mayor entendimiento visual graficar los resultados. 
 Palabras clave: Programa, Nivelación y Desniveles.
-1.	Introducción
-En el presente reporte se habla acerca de la obtención de desniveles, llevado a cabo a través de una nivelación previamente realizada con los datos necesarios para su desarrollo. Con la finalidad de generar un programa en Colab que nos arroje de manera automática los resultados del desnivel del terreno.  Para entrar en conceptualización, cuando hablamos de desnivel, hacemos referencia a la diferencia de altura entre dos o más puntos. El desnivel también se puede definir como la diferencia de elevación o cota entre ambos puntos.
-Dentro de este reporte se mencionan diversos apartados, tales como objetivo general, objetivos específicos, estado del arte; en el que se incluye marco histórico, marco conceptual, marco teórico, marco metodológico y marco de referencia, así mismo, se mencionan las herramientas a utilizar, la metodología empleada, resultados, conclusiones y finalmente, la bibliografía, todos los mencionados con la finalidad de que tanto como el reporte como el trabajo realizado en campo, sea elaborado de la mejor manera.
-La realización de este proyecto principalmente, tiene como propósito generar un programa que ayude a respaldar a las personas enfocadas al 
-      Abstrac
+
+Abstrac
 A program will be generated in colab whose purpose is to read an Excel file, in which there is data from a previously carried out leveling of the Coquimatlán campus in the Faculty of Civil Engineering, to obtain as a result that the program automatically generates the unevenness obtained, also for a better visual understanding graph the results.
 Keywords: Program, Leveling and Slopes.
 
-campo de la topografía, ya que este programa ayudará a ahorrar tiempo al momento de realizar cálculos de este tipo. De igual forma, el desarrollo de este proyecto permite aplicar los conocimientos adquiridos en la materia de Proyecto Integrador, así como la de Topografía General II.
+
+1.	Introducción
+
+En el presente reporte se habla acerca de la obtención de desniveles, llevado a cabo a través de una nivelación previamente realizada con los datos necesarios para su desarrollo. Con la finalidad de generar un programa en Colab que nos arroje de manera automática los resultados del desnivel del terreno.  Para entrar en conceptualización, cuando hablamos de desnivel, hacemos referencia a la diferencia de altura entre dos o más puntos. El desnivel también se puede definir como la diferencia de elevación o cota entre ambos puntos.
+Dentro de este reporte se mencionan diversos apartados, tales como objetivo general, objetivos específicos, estado del arte; en el que se incluye marco histórico, marco conceptual, marco teórico, marco metodológico y marco de referencia, así mismo, se mencionan las herramientas a utilizar, la metodología empleada, resultados, conclusiones y finalmente, la bibliografía, todos los mencionados con la finalidad de que tanto como el reporte como el trabajo realizado en campo, sea elaborado de la mejor manera.
+La realización de este proyecto principalmente, tiene como propósito generar un programa que ayude a respaldar a las personas enfocadas al campo de la topografía, ya que este programa ayudará a ahorrar tiempo al momento de realizar cálculos de este tipo. De igual forma, el desarrollo de este proyecto permite aplicar los conocimientos adquiridos en la materia de Proyecto Integrador, así como la de Topografía General II.
 Dicho todo esto, daremos inicio al reporte comenzando con el objetivo general de este proyecto.
 
  
 2.	Desarrollo 
+
 Materiales
 Para poder llevar a cabo este proyecto, se hizo uso de los siguientes materiales:
 •	Computadora con acceso a Internet
