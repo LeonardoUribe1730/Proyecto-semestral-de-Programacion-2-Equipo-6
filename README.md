@@ -38,7 +38,13 @@ Primeramente, se pasan los archivos obtenidos de una nivelación topográfica de
 
 En seguida de ello, se guarda el archivo en su equipo. Se recomienda que este sea guardado en formato .cvs o .xlsx.  
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-008.png](https://i.postimg.cc/HkrGTqWn/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-008.png)](https://postimg.cc/v4w2zSVw)
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-009.png](https://i.postimg.cc/nzZw9gxv/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-009.png)](https://postimg.cc/v1qvpPcB)
+
 Una vez teniendo estos, se exportan a Google Drive. De tal manera que se guardó en la carpeta especial de Google Colab para así facilitar los procesos de búsqueda del archivo al momento de querer abrirlo en Colab.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-010.png](https://i.postimg.cc/rwrhnMF1/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-010.png)](https://postimg.cc/hXKbhFmv)
 
 Una vez teniendo nuestro archivo Excel en Google Drive con los datos de la nivelación, se comienza a programar en Colab de tal manera que abra y lea los archivos de Excel. Para ello, se emplearon comandos como “from google.colab import drive”, “from google.colab import data_table” y “import xlrd”.
 
