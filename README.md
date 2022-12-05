@@ -34,6 +34,8 @@ Para poder llevar a cabo este proyecto, se hizo uso de los siguientes materiales
 
 Primeramente, se pasan los archivos obtenidos de una nivelación topográfica de campo a un archivo Excel.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-007.png](https://i.postimg.cc/mZpFP9ND/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-007.png)](https://postimg.cc/8sWC3jYQ)
+
 En seguida de ello, se guarda el archivo en su equipo. Se recomienda que este sea guardado en formato .cvs o .xlsx.  
 
 Una vez teniendo estos, se exportan a Google Drive. De tal manera que se guardó en la carpeta especial de Google Colab para así facilitar los procesos de búsqueda del archivo al momento de querer abrirlo en Colab.
