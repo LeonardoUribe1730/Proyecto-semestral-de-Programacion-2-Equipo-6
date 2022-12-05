@@ -1,4 +1,4 @@
-## **Programa que calcula el desnivel entre dos puntos referidos a una superficie
+## Programa que calcula el desnivel entre dos puntos referidos a una superficie
 
 Autores de Proyecto:
 Avalos Rocha Andrea Jiménez Vargas Mariel del Rosario
@@ -30,18 +30,18 @@ Fecha:
 
 ![image](https://user-images.githubusercontent.com/119511140/205765509-8f4d2708-450f-4530-9938-25ae3a2fd269.png)
 
-**Porgrama que calcula el desnivel entre dos puntos referidos a una superficie**
+## **Porgrama que calcula el desnivel entre dos puntos referidos a una superficie**
 
 Andrea Avalos Rocha (1), Mariel del Rosario Jiménez Vargas (2), Leonardo Miguel Uribe García (3)
 
 (1) Facultad de Ingeniería Civil, 1604, Colima-Coquimatlán Kilómetro 9, Jardines del Llano, 28400, Coquimatlán, Col. (1)20186380,aavalos9@ucol.mx, (2) 20186524 mjimenez@ucol.mx (3) 20186673 luribe0@ucol.mx
  
- **Resumen**
+## **Resumen**
 
 Se generará un programa en colab el cual tiene como propósito leer un archivo de Excel, en el que se encuentran datos de una nivelación previamente realizada del campus Coquimatlán en la Facultad de Ingeniería Civil, para obtener como resultado que el programa genere de manera automática el desnivel obtenido, también para un mayor entendimiento visual graficar los resultados. 
 Palabras clave: Programa, Nivelación y Desniveles.
 
-Abstrac
+# **Abstrac**
 A program will be generated in colab whose purpose is to read an Excel file, in which there is data from a previously carried out leveling of the Coquimatlán campus in the Faculty of Civil Engineering, to obtain as a result that the program automatically generates the unevenness obtained, also for a better visual understanding graph the results.
 Keywords: Program, Leveling and Slopes.
 
