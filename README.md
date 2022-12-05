@@ -99,13 +99,23 @@ Ahora bien, luego se usó el módulo time,  math, geopy y seaborn para poder obt
 
 [![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-023.png](https://i.postimg.cc/5NLJvddr/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-023.png)](https://postimg.cc/yk124GNh)
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-024.png](https://i.postimg.cc/zXCmvCTZ/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-024.png)](https://postimg.cc/mtgp6Fd8)
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-025.png](https://i.postimg.cc/Z5bQq1Tp/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-025.png)](https://postimg.cc/0b4nWXKy)
+
 Finalmente se usó el módulo basemap para mostrar un mapa de escala global en donde marca en que parte del mundo se encuentra realizada la nivelación topográfica.
 
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-026.png](https://i.postimg.cc/3r2fFKN2/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-026.png)](https://postimg.cc/Dmyc23qz)
+
 Y así el código nos muestra lo siguiente:
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-027.png](https://i.postimg.cc/Bv8ML3RL/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-027.png)](https://postimg.cc/QB3pw28h)
 
 3. Manejo de datos
 
 Por parte de los datos que se emplearon se encuentran toda la información de Excel obtenida de una nivelación topográfica, en donde se ordenaron por Punto Visado (P.V), Lecturas Positivas (Lect (+)), Lecturas Negativas (Lect (-)), Altura del instrumento (A.I.) y Cotas.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-028.png](https://i.postimg.cc/KjbNHMjB/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-028.png)](https://postimg.cc/ph0z9yDL)
 
 Ahora bien, por parte de los datos para programar, se emplearon librerías y módulos tales como pandas, numpy, xrld y matplotlib, en donde:
 
@@ -129,6 +139,8 @@ Basemap: No sirvió para poder proyectar mapas
 Como recomendación, sugerimos que al utilizar el programa realizado por nosotros se debe de tener antes muy bien ordenada la información de nuestro dataframe (Excel) pues solo se podrá ejecutar de la manera correcta si se cuenta con la información ordenada en columnas y cada una de ellas con los nombres correspondientes (P.V, Lect(+), A.I., Lect (-) y cotas).
 
 Cabe destacar que es importante tener instalado la librería basemap con pip install pues si esta no está instalada, el programa nos marcará error.
+
+[![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-029.png](https://i.postimg.cc/fTBK8kNS/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-029.png)](https://postimg.cc/xcNMCfq9)
 
 4. Resultados
 
