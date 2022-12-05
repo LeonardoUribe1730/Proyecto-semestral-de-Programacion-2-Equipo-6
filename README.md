@@ -15,7 +15,7 @@ A program will be generated in colab whose purpose is to read an Excel file, in 
 Keywords: Program, Leveling and Slopes.
 
 
-1.	Introducción
+## **1.	Introducción**
 
 En el presente reporte se habla acerca de la obtención de desniveles, llevado a cabo a través de una nivelación previamente realizada con los datos necesarios para su desarrollo. Con la finalidad de generar un programa en Colab que nos arroje de manera automática los resultados del desnivel del terreno.  Para entrar en conceptualización, cuando hablamos de desnivel, hacemos referencia a la diferencia de altura entre dos o más puntos. El desnivel también se puede definir como la diferencia de elevación o cota entre ambos puntos.
 Dentro de este reporte se mencionan diversos apartados, tales como objetivo general, objetivos específicos, estado del arte; en el que se incluye marco histórico, marco conceptual, marco teórico, marco metodológico y marco de referencia, así mismo, se mencionan las herramientas a utilizar, la metodología empleada, resultados, conclusiones y finalmente, la bibliografía, todos los mencionados con la finalidad de que tanto como el reporte como el trabajo realizado en campo, sea elaborado de la mejor manera.
@@ -23,7 +23,7 @@ La realización de este proyecto principalmente, tiene como propósito generar u
 Dicho todo esto, daremos inicio al reporte comenzando con el objetivo general de este proyecto.
 
  
-2.	Desarrollo 
+## **2.	Desarrollo**
 
 Materiales
 Para poder llevar a cabo este proyecto, se hizo uso de los siguientes materiales:
@@ -130,7 +130,7 @@ Y así el código nos muestra lo siguiente:
 [![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-027.png](https://i.postimg.cc/Bv8ML3RL/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-027.png)](https://postimg.cc/QB3pw28h)
 Figura 20. Mapa
 
-3. Manejo de datos
+## **3. Manejo de datos**
 
 Por parte de los datos que se emplearon se encuentran toda la información de Excel obtenida de una nivelación topográfica, en donde se ordenaron por Punto Visado (P.V), Lecturas Positivas (Lect (+)), Lecturas Negativas (Lect (-)), Altura del instrumento (A.I.) y Cotas.
 
@@ -163,7 +163,7 @@ Cabe destacar que es importante tener instalado la librería basemap con pip ins
 [![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-029.png](https://i.postimg.cc/fTBK8kNS/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-029.png)](https://postimg.cc/xcNMCfq9)
 Figura 22. Basemap instalado
 
-4. Resultados
+## **4. Resultados**
 
 Respecto a los resultados, podemos decir que, si se cumplieron con los objetivos establecidos en nuestro proyecto, es decir, se pudo programar y se obtuvo el desnivel que hay entre dos bancos de nivel al igual que también se logró representar el desnivel a manera de una gráfica de barras, en donde se especifica a detalle como es el comportamiento de los datos en cada estación o punto visado. Así mismo, el código elaborado muestra el lugar, las coordenadas y un mapa con la zona donde se realizó la nivelación.
 
@@ -311,7 +311,7 @@ plt.title("Ubicación donde se hizo la nivelación")
 Link del código en colab:
 https://colab.research.google.com/drive/1C6E2Dd3u2N2XMu5XNNS4_6UzthRyFEGr?usp=sharing
 
-5.- Conclusiones
+## **5. Conclusiones**
 
 A manera de conclusión, podemos decir que nuestro proyecto concluyó de la manera en que esperábamos, el código que desarrollamos aplicado al campo de la Topografía y Geomática funciona, arrojándonos el valor del desnivel entre dos bancos de nivel. De igual forma, el código nos muestra información geoespacial, la cual es muy importante en la ingeniería debido a que los datos geoespaciales ayudan a describir eventos con ciertas características con una ubicación en la superficie terrestre, por lo general, estos datos geoespaciales combinan información de ubicación (en este caso coordenadas del lugar donde se realizó la nivelación) e información que posee las características del evento que se realizó. 
 
@@ -323,7 +323,7 @@ Para finalizar, el realizar este código nos deja una gran enseñanza, pues ejem
 
 
 
-6. Referencias
+## **6. Referencias**
  
 Aws(2022).”¿Qué es Python?, Amazon.com. Recuperado el 31 de octubre de 2022, de https://aws.amazon.com/es/what-is/python/
 
