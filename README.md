@@ -26,10 +26,15 @@ Dicho todo esto, daremos inicio al reporte comenzando con el objetivo general de
 ## **2.	Desarrollo**
 
 Materiales
+
 Para poder llevar a cabo este proyecto, se hizo uso de los siguientes materiales:
+
 •	Computadora con acceso a Internet
+
 •	Google Colab (Google Colaboratory)
+
 •	Excel
+
 •	Datos obtenidos de una nivelación 
 
 Primeramente, se pasan los archivos obtenidos de una nivelación topográfica de campo a un archivo Excel.
