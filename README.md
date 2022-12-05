@@ -1,11 +1,42 @@
-## **Programa que calcula el desnivel entre dos puntos referidos a una superficie**
-*Program that calculates the unevenness between two points referred to a surface.*
+## **Programa que calcula el desnivel entre dos puntos referidos a una superficie
+
+Autores de Proyecto:
+Avalos Rocha Andrea Jiménez Vargas Mariel del Rosario
+Uribe García Leonardo Miguel
+
+
+Institución:
+Facultad de Ingeniería Civil, Universidad de Colima, Campus Coquimatlán
+
+
+Carrera:
+Ingeniero Topógrafo Geomático
+
+
+Grado y gruPo:
+3ºB
+
+
+Profesor titular:
+Sebastián González Zepeda
+
+
+Lugar:
+Campus Coquimatlán; Coquimatlán, Colima
+
+
+Fecha:
+03 de diciembre de 2022
+
+![image](https://user-images.githubusercontent.com/119511140/205765509-8f4d2708-450f-4530-9938-25ae3a2fd269.png)
+
+**Porgrama que calcula el desnivel entre dos puntos referidos a una superficie**
 
 Andrea Avalos Rocha (1), Mariel del Rosario Jiménez Vargas (2), Leonardo Miguel Uribe García (3)
 
 (1) Facultad de Ingeniería Civil, 1604, Colima-Coquimatlán Kilómetro 9, Jardines del Llano, 28400, Coquimatlán, Col. (1)20186380,aavalos9@ucol.mx, (2) 20186524 mjimenez@ucol.mx (3) 20186673 luribe0@ucol.mx
  
-Resumen
+ **Resumen**
 
 Se generará un programa en colab el cual tiene como propósito leer un archivo de Excel, en el que se encuentran datos de una nivelación previamente realizada del campus Coquimatlán en la Facultad de Ingeniería Civil, para obtener como resultado que el programa genere de manera automática el desnivel obtenido, también para un mayor entendimiento visual graficar los resultados. 
 Palabras clave: Programa, Nivelación y Desniveles.
@@ -310,6 +341,13 @@ plt.title("Ubicación donde se hizo la nivelación")
 
 Link del código en colab:
 https://colab.research.google.com/drive/1C6E2Dd3u2N2XMu5XNNS4_6UzthRyFEGr?usp=sharing
+
+![image](https://user-images.githubusercontent.com/119511140/205766049-bdad725a-d933-48c8-883f-50879eea5b4b.png)
+![image](https://user-images.githubusercontent.com/119511140/205766168-d43b3795-980f-4b23-8a7f-44ba2f6e3755.png)
+![image](https://user-images.githubusercontent.com/119511140/205766245-1b1544d7-2670-48a7-b6f6-1c608bf8607f.png)
+![imagen](https://user-images.githubusercontent.com/119511140/205765358-4d456bd6-f9b1-42a0-9142-dc9660b3c1b6.png)
+![image](https://user-images.githubusercontent.com/119511140/205765378-25cafb26-2ad8-4ca2-a3d6-d863ffe019f1.png)
+
 
 ## **5. Conclusiones**
 
