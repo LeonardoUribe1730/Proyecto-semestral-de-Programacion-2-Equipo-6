@@ -5,7 +5,7 @@ Program that calculates the unevenness between two points referred to a surface.
 
 Andrea Avalos Rocha (1), Mariel del Rosario Jiménez Vargas (2), Leonardo Miguel Uribe García (3)
 
-(1) Facultad de Ingeniería Civil, 1604, Colima-Coquimatlán Kilómetro 9, Jardines del Llano, 28400, Co- quimatlán, Col.(1)20186380,aavalos9@ucol.mx, (2) 20186524 mjimenez@ucol.mx (3) 20186673 luribe0@ucol,mx
+(1) Facultad de Ingeniería Civil, 1604, Colima-Coquimatlán Kilómetro 9, Jardines del Llano, 28400, Coquimatlán, Col. (1)20186380,aavalos9@ucol.mx, (2) 20186524 mjimenez@ucol.mx (3) 20186673 luribe0@ucol,mx
  
 Resumen
 
@@ -35,8 +35,6 @@ Para poder llevar a cabo este proyecto, se hizo uso de los siguientes materiales
 •	Datos obtenidos de una nivelación 
 
 Primeramente, se pasan los archivos obtenidos de una nivelación topográfica de campo a un archivo Excel.
-
- 
 Figura 20. Datos de nivelación a Excel
 
 En seguida de ello, se guarda el archivo en su equipo. Se recomienda que este sea guardado en formato .cvs o .xlsx.  
