@@ -194,6 +194,23 @@ Cabe destacar que es importante tener instalado la librería basemap con pip ins
 [![Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-029.png](https://i.postimg.cc/fTBK8kNS/Aspose-Words-8dd2f1f8-59c2-44ba-9aa4-0c278bdba44f-029.png)](https://postimg.cc/xcNMCfq9)
 Figura 22. Basemap instalado
 
+Importante mencionar que en el archivo Excel xlsx vienen 3 hojas con diferentes nivelaciones. En la primera hoja el desnivel es 0, por lo tanto el terreno es plano. En la segunda hoja, el desnivel es  negativo, por lo tanto la pendiente es decreciente. En la última hoja, el desnivel es positivo y por ello la pendiente es creciente.
+
+![image](https://user-images.githubusercontent.com/119511140/206040581-a794915e-2ec3-4dc3-806f-d731d12c5234.png)
+![image](https://user-images.githubusercontent.com/119511140/206040603-cdef3ee7-4866-4701-b331-90c9cb429147.png)
+
+Figura 23 y 24. Hoja1 Excel, terreno plano
+
+![image](https://user-images.githubusercontent.com/119511140/206040706-1c9c1804-af19-4d1d-b089-89eb5d2d1fc9.png)
+![image](https://user-images.githubusercontent.com/119511140/206040720-5a9993e5-c46b-4e5d-a997-acb5b9adfed5.png)
+
+Figura 25 y 26. Hoja2 Excel, pendiente decreciente
+
+![image](https://user-images.githubusercontent.com/119511140/206040819-26ff515d-6c9d-46ca-8812-82fccc11107e.png)
+![image](https://user-images.githubusercontent.com/119511140/206040845-72654ff9-2150-406f-8af1-34a7a9c69f0f.png)
+
+Figuras 27 y 28. Hoja3 Excel, pendiente creciente
+
 ## **4. Resultados**
 
 Respecto a los resultados, podemos decir que, si se cumplieron con los objetivos establecidos en nuestro proyecto, es decir, se pudo programar y se obtuvo el desnivel que hay entre dos bancos de nivel al igual que también se logró representar el desnivel a manera de una gráfica de barras, en donde se especifica a detalle como es el comportamiento de los datos en cada estación o punto visado. Así mismo, el código elaborado muestra el lugar, las coordenadas y un mapa con la zona donde se realizó la nivelación.
